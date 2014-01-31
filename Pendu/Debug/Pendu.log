@@ -1,0 +1,27 @@
+﻿La génération a démarré 1/30/2014 10:12:18 AM.
+     1>Projet "G:\Cours\C\Pendu\Pendu\Pendu.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt fichier.c fonctions.c main.c
+         main.c
+     1>g:\cours\c\pendu\pendu\main.c(15): warning C4133: 'initialisation' : types incompatibles - de 'int *' à 'char *'
+     1>g:\cours\c\pendu\pendu\main.c(20): warning C4133: 'fonction' : types incompatibles - de 'char *' à 'int *'
+     1>g:\cours\c\pendu\pendu\main.c(42): warning C4133: 'fonction' : types incompatibles - de 'char *' à 'int *'
+     1>g:\cours\c\pendu\pendu\main.c(62): warning C4133: 'fonction' : types incompatibles - de 'char *' à 'int *'
+     1>g:\cours\c\pendu\pendu\main.c(17): warning C4101: 'reponse' : variable locale non référencée
+         fonctions.c
+     1>g:\cours\c\pendu\pendu\fonctions.c(11): warning C4101: 'i' : variable locale non référencée
+     1>g:\cours\c\pendu\pendu\fonctions.c(99): warning C4028: paramètre formel 1 différent de la déclaration
+         fichier.c
+     1>g:\cours\c\pendu\pendu\fichier.c(127): warning C4013: 'time' non défini(e) ; extern retournant int pris par défaut
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Cours\C\Pendu\Debug\Pendu.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Cours\C\Pendu\Debug\Pendu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Cours\C\Pendu\Debug\Pendu.lib" /MACHINE:X86 Debug\fichier.obj
+         Debug\fonctions.obj
+         Debug\main.obj
+         LINK : G:\Cours\C\Pendu\Debug\Pendu.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+         Pendu.vcxproj -> G:\Cours\C\Pendu\Debug\Pendu.exe
+     1>Génération du projet "G:\Cours\C\Pendu\Pendu\Pendu.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.92
